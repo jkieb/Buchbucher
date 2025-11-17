@@ -1,0 +1,25 @@
+[
+  {
+    "username": "mira",
+    "password": "atlas",
+    "name": "Mira",
+    "currentPhase": "Wachstum",
+    "favoritePalettes": ["Federleicht", "Neon Noir"],
+    "backlog": [
+      "Karten aus Nebel und Licht",
+      "Archiv der kommenden Stimmen"
+    ],
+    "notes": "Sucht nach Büchern, die Hoffnung und Kritik zugleich tragen."
+  },
+  {
+    "username": "leo",
+    "password": "delta",
+    "name": "Leo",
+    "currentPhase": "Kontemplation",
+    "favoritePalettes": ["Salzwasser", "Messing"],
+    "backlog": [
+      "Kompass für sanfte Revolutionen"
+    ],
+    "notes": "Braucht ruhige Texte nach langen Tagen im Labor."
+  }
+]

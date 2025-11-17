@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buchbucher · Meta-Empfehlungen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Meta-Ebene über Goodreads & StoryGraph</p>
+          <h1>Buchbucher</h1>
+          <p class="subtitle">
+            Eine simple, elegante Empfehlungs-App, die mit dir wächst. Wir kuratieren aus den großen Archiven,
+            damit du nur das siehst, was zu deiner aktuellen Entwicklungsphase passt.
+          </p>
+        </div>
+      </header>
+      <main class="grid">
+        <section class="panel" id="login-panel">
+          <h2>Login</h2>
+          <p class="hint">Nutze demo Accounts wie <strong>mira/atlas</strong> oder <strong>leo/delta</strong>.</p>
+          <form id="login-form" class="stack">
+            <label class="field">
+              <span>Benutzername</span>
+              <input type="text" name="username" autocomplete="username" required />
+            </label>
+            <label class="field">
+              <span>Passwort</span>
+              <input type="password" name="password" autocomplete="current-password" required />
+            </label>
+            <button type="submit">Meta-Feed entsperren</button>
+            <p class="error" id="login-error" aria-live="assertive"></p>
+          </form>
+        </section>
+
+        <section class="panel hidden" id="profile-panel">
+          <div class="profile-header">
+            <div>
+              <p class="eyebrow">Angemeldet als</p>
+              <h2 id="profile-name"></h2>
+            </div>
+            <button id="logout-button" class="ghost">Logout</button>
+          </div>
+          <dl class="profile-meta">
+            <div>
+              <dt>Aktuelle Phase</dt>
+              <dd id="profile-phase"></dd>
+            </div>
+            <div>
+              <dt>Paletten</dt>
+              <dd id="profile-palettes"></dd>
+            </div>
+          </dl>
+          <p id="profile-notes" class="notes"></p>
+          <div class="filters">
+            <label>
+              <span>Phase aktualisieren</span>
+              <select id="phase-select">
+                <option value="">Was dich ruft</option>
+                <option value="Wachstum">Wachstum</option>
+                <option value="Kontemplation">Kontemplation</option>
+                <option value="Ko-Kreation">Ko-Kreation</option>
+                <option value="Grenzgänger">Grenzgänger</option>
+                <option value="Resonanz">Resonanz</option>
+                <option value="Ruhe">Ruhe</option>
+              </select>
+            </label>
+            <label>
+              <span>Lesetempo</span>
+              <select id="tempo-select">
+                <option value="">Alles</option>
+                <option value="Ruhig">Ruhig</option>
+                <option value="Wechselhaft">Wechselhaft</option>
+                <option value="Wild">Wild</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="panel feed" id="feed-panel">
+          <div class="feed-header">
+            <div>
+              <p class="eyebrow">Dein Entwicklungsfeed</p>
+              <h2 id="feed-title">Melde dich an, um Empfehlungen zu sehen</h2>
+            </div>
+            <p class="hint" id="feed-hint"></p>
+          </div>
+          <div id="recommendations" class="cards"></div>
+        </section>
+      </main>
+    </div>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

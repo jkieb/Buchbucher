@@ -1,0 +1,16 @@
+{
+  "name": "buchbucher",
+  "version": "1.0.0",
+  "description": "Eine elegante Meta-Empfehlungs-App für Bücher, die Goodreads und StoryGraph bündelt.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "check": "node --check server/index.js && node --check public/app.js"
+  },
+  "keywords": ["books", "recommendations", "meta"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

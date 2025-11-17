@@ -1,0 +1,68 @@
+[
+  {
+    "source": "Goodreads",
+    "title": "Piranesi",
+    "author": "Susanna Clarke",
+    "summary": "Eine poetische Erforschung von Erinnerung, Architektur und Einsamkeit in einem endlosen Haus, das sich immer wieder neu ordnet.",
+    "phases": ["Wachstum", "Kontemplation"],
+    "vibes": ["träumerisch", "rätselhaft"],
+    "tempo": "Ruhig",
+    "url": "https://www.goodreads.com/book/show/50202953-piranesi",
+    "colors": ["indigo", "perlgrau"]
+  },
+  {
+    "source": "Goodreads",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin",
+    "summary": "Freundschaft, Game-Design und die Frage, wie wir gemeinsam Welten erschaffen, die größer sind als wir selbst.",
+    "phases": ["Ko-Kreation", "Wachstum"],
+    "vibes": ["kreativ", "nostalgisch"],
+    "tempo": "Wechselhaft",
+    "url": "https://www.goodreads.com/book/show/58784475-tomorrow-and-tomorrow-and-tomorrow",
+    "colors": ["korallrot", "pazifikblau"]
+  },
+  {
+    "source": "Goodreads",
+    "title": "The Mountain in the Sea",
+    "author": "Ray Nayler",
+    "summary": "Erstkontakt mit hochintelligenten Oktopoden und eine meditative Betrachtung darüber, was Bewusstsein eigentlich ausmacht.",
+    "phases": ["Grenzgänger", "Kontemplation"],
+    "vibes": ["philosophisch", "maritim"],
+    "tempo": "Ruhig",
+    "url": "https://www.goodreads.com/book/show/60194940-the-mountain-in-the-sea",
+    "colors": ["seegrün", "graphit"]
+  },
+  {
+    "source": "StoryGraph",
+    "title": "The Spear Cuts Through Water",
+    "author": "Simon Jimenez",
+    "summary": "Ein experimentelles Märchen über Liebe und Aufstand, erzählt in wechselnden Formaten und Stimmen.",
+    "phases": ["Grenzgänger", "Ko-Kreation"],
+    "vibes": ["mythisch", "episch"],
+    "tempo": "Wild",
+    "url": "https://app.thestorygraph.com/books/2d2f4f64-4515-4dda-9da2-519427ade1d8",
+    "colors": ["bernstein", "nachtblau"]
+  },
+  {
+    "source": "StoryGraph",
+    "title": "Sea of Tranquility",
+    "author": "Emily St. John Mandel",
+    "summary": "Zeitsprünge, Mondkolonien und die Sehnsucht nach einer konstanten Melodie in einer fragmentierten Zukunft.",
+    "phases": ["Kontemplation", "Ruhe"],
+    "vibes": ["melancholisch", "klar"],
+    "tempo": "Ruhig",
+    "url": "https://app.thestorygraph.com/books/6c742fd2-3f51-4203-8bd8-5d3c8f2cde45",
+    "colors": ["silber", "mitternachtsblau"]
+  },
+  {
+    "source": "StoryGraph",
+    "title": "Babel",
+    "author": "R. F. Kuang",
+    "summary": "Sprachmagie, Kolonialismus und ein akademischer Hexenkessel, der langsam zu brodeln beginnt.",
+    "phases": ["Wachstum", "Resonanz"],
+    "vibes": ["intensiv", "politisch"],
+    "tempo": "Wechselhaft",
+    "url": "https://app.thestorygraph.com/books/7414dab6-0757-4fbf-b89d-2d6161b91536",
+    "colors": ["messing", "rauchgrau"]
+  }
+]
